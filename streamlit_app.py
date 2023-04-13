@@ -61,4 +61,4 @@ if streamlit.button('Add this fruit to sf'):
   return_text = insert_fruit(add_my_fruit)
   streamlit.text("Thanks for adding ",add_my_fruit)
     
-my_cur.execute("insert into fruit_load_list values('",add_my_fruit,"')")
+
